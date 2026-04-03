@@ -226,9 +226,10 @@ media_player:
 micro_wake_word:
   id: mww
   models:
-    - okay_nabu
-    - hey_mycroft
-    - hey_jarvis
+    - model: okay_nabu
+    - model: hey_jarvis
+    - model: https://raw.githubusercontent.com/MAK-9/micro-wake-word-models/refs/heads/main/models/v2/gerwazy.json
+      id: gerwazy
   on_wake_word_detected:
     - voice_assistant.start:
         wake_word: !lambda return wake_word;
