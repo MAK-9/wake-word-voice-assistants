@@ -225,11 +225,11 @@ media_player:
 
 micro_wake_word:
   id: mww
-  # To '!' przed resetem mówi ESPHome: "Zapomnij co było w paczkach, tu jest nowa lista"
-  models: !override
-    - model:
-        url: https://raw.githubusercontent.com/MAK-9/micro-wake-word-models/refs/heads/main/models/v2/gerwazy.json
-        type: http
+  vad:
+  models:
+    - model: okay_nabu
+    - model: hey_jarvis
+    - model: https://raw.githubusercontent.com/MAK-9/micro-wake-word-models/refs/heads/main/models/v2/gerwazy.json
       id: gerwazy
 
   on_wake_word_detected:
