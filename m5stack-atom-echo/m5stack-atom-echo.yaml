@@ -376,4 +376,3 @@ micro_wake_word:
     - model: hey_mycroft
     - model: hey_jarvis
     - model: https://raw.githubusercontent.com/MAK-9/micro-wake-word-models/refs/heads/main/models/v2/gerwazy.json
-      id: gerwazy
