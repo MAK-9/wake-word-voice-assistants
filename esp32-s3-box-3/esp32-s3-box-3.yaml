@@ -225,7 +225,6 @@ media_player:
 
 micro_wake_word:
   id: mww
-  vad:
   models:
     - model: okay_nabu
     - model: hey_jarvis
