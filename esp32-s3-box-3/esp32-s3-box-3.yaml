@@ -228,8 +228,10 @@ micro_wake_word:
   models:
 #    - model: okay_nabu
 #    - model: hey_jarvis
-    - model: https://raw.githubusercontent.com/MAK-9/micro-wake-word-models/refs/heads/main/models/v2/gerwazy.json
-      id: gerwazy
+    - model: github://MAK-9/micro-wake-word-models/models/v2/gerwazy.json
+        #url: https://raw.githubusercontent.com/MAK-9/micro-wake-word-models/refs/heads/main/models/v2/gerwazy.json
+        #type: http
+      #id: gerwazy
 
   on_wake_word_detected:
     - voice_assistant.start:
