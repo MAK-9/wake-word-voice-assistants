@@ -226,7 +226,7 @@ media_player:
 micro_wake_word:
   id: mww
   models:
-    - model: github://MAK-9/micro-wake-word-models/models/v2/gerwazy.json
+    - model: github://MAK-9/micro-wake-word-models/models/v2/gerwazytypo.json
     #  id: gerwazy
 
   on_wake_word_detected:
