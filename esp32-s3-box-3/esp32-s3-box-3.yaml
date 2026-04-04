@@ -227,7 +227,7 @@ micro_wake_word:
   id: mww
   models:
     - model:
-        url: https://raw.githubusercontent.com/MAK-9/micro-wake-word-models/main/models/v2/gerwazy.json
+        url: https://github.com/MAK-9/micro-wake-word-models/main/models/v2/gerwazy.json
         type: http
         refresh: 1s
       id: gerwazy
