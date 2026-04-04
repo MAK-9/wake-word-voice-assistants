@@ -226,8 +226,8 @@ media_player:
 micro_wake_word:
   id: mww
   models:
-    - model: https://github.com/MAK-9/micro-wake-word-models/blob/main/models/v2/gerwazy.json
-      id: gerwazy
+    - model: github://MAK-9/micro-wake-word-models/models/v2/gerwazy.json
+    #  id: gerwazy
 
   on_wake_word_detected:
     - voice_assistant.start:
